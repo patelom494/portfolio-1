@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*this is for heading*/
+.head {
+    background-color: aqua;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+/* this style for navigation bar*/
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+    position: sticky;  
+    top: 0;
+    z-index: 1;
+}
+.navbar a {
+    display: block;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 15px 25px;
+    font-size: 15px;
+}
+.navbar a:hover{
+    color: black;
+    background-color: orangered;
+}
+/* this stylr for contant*/
+.contant {
+    background-image: url(image/pic1.jpg);
+    height: 100vh;
+    width: 100vw;
+    position:relative ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contant  .text{   
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    transform: translate(-50% -50%);
+    color: white;
+    font-size: 70px;
+}
+    
+/*this style for extra text*/
+.intro {
+    background-color: black;
+    padding: 27px;
+    font-size: 40px;
+    color:skyblue;
+    text-align: center;
+}
+.intro:hover{
+    text-shadow: 0px 0px 5px white;
+}
+/*this style for box model*/
+.box{
+    background-color: skyblue;
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 0 25px black;
+    border: 2px solid rgb(12, 2, 2);
+    border-radius: 20px;
+    margin: 20px;
+    display: block;
+}
+.card:hover{
+    box-shadow: 0 0 25px white;
+    transform: scale(1.1);
+}
+.card-image, img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+}
+.card-text{
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+/*this style for bottom*/
+
+.bottom{
+    width: 100%;
+    overflow: hidden;
+}
+.contact{
+    width: 50%;
+    height: auto;
+    float: left;
+    background-color: green;
+    color: white;
+}
+.about{
+    width: 50%;
+    height: auto;
+    float: left;
+    background-color: brown;
+    color: white;
+}
+.bottom h1, .bottom p{
+     padding: 10px;
+}
+/*this style for footer*/
+
+footer{
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+    float: left;
+}
